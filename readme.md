@@ -1,11 +1,12 @@
 # SocoIOT
 This project have been created during few rainy days in the summer of 2023 debugged into working state during few further days in following five weeks still containing some imperfections.
 
-There are some known bugs like speed and power isn't parsed correctly which are under investigation.
-Also temperatures below zero can bring us surprise readings :-)
-Bluetooth isn't implemented yet.
-MQTT encryption for using public cloud services isn't tested yet.
-An absolute minimum of configurable parameters can be configured.
+There are some known bugs like speed and power isn't parsed correctly which are under investigation.<br />
+Also temperatures below zero can bring us surprise readings :-)<br />
+Bluetooth isn't implemented yet.<br />
+Get working uart dma with lwip.<br />
+MQTT encryption for using public cloud services isn't tested yet.<br />
+An absolute minimum of configurable parameters can be configured.<br />
 
 Working means it reads TC Pro and hope also TC Max internal bus data, parsing, connecting to WiFi and sending unencrypted data over local network to local MQTT broker (Mosquitto) plugin for Home Assistant.
 
@@ -127,9 +128,9 @@ https://github.com/cniles/picow-iot<br />
 modified for my purposesa<br />
 <br />
 SD card FatFS library from Carl J Kugler III and ELM ChaN<br />
-https://github.com/carlk3/FreeRTOS-FAT-CLI-for-RPi-Pico/<br />
+https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico<br />
 used as is<br />
 <br />
-Hardware - Picopad<br />
+Hardware - Picopad open source hardware<br />
 https://github.com/Pajenicko/Picopad<br />
 <br />
